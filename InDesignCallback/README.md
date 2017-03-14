@@ -23,10 +23,4 @@ InDesign での Callback のサンプルコードです。
 ```
 
 ## 概要
-エクステンションを起動したら表示されるパネルです。  
-![起動したパネル](/Users/blackcat/Desktop/indesign-callback-before.png)  
-  
 パネル内の **do** ボタンをクリックすると、jsx ディレクトリ内の `hostscript.jsx` からコールバックで文字列を受け取り、テキストエリア内の文字列を書き換えます。  
-
-書き換えたパネルです。  
-![書き換えたパネル](/Users/blackcat/Desktop/indesign-callback-after.png)
