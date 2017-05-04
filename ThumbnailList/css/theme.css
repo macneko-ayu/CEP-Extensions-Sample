@@ -1,0 +1,25 @@
+/*
+This stylesheet represents CC app styles
+Empty classes will be edited at runtime with dynamic app values
+*/
+
+/* 適用されているcssがわかりづらくなるので、style.cssにまとめる */
+
+/*
+input[type="text"] {
+    width: 45%;
+    margin-left: 5px;
+}
+
+input[type="select"] {
+    width: 90%;
+    margin-left: 5px;
+}
+
+.hostFont{
+    width: auto;
+}
+.hostBgd{}
+.hostElt{}
+
+*/
