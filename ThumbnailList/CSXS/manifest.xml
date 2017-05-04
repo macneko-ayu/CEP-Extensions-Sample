@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="4.0" ExtensionBundleId="com.macneko.copyStyleAttuributes" ExtensionBundleVersion="1.0.0"
+                   ExtensionBundleName="copyStyleAttuributes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Author><![CDATA[macneko-ayu]]></Author>
+    <Abstract><![CDATA[Create thumbnail list with Indesign.]]></Abstract>
+    <ExtensionList>
+        <Extension Id="com.macneko.thumbnailList" Version="1.0.0" />
+    </ExtensionList>
+    <ExecutionEnvironment>
+        <HostList>
+<!--             <Host Name="IDSN" Version="[9.0,10.9]" />-->
+            <Host Name="IDSN" Version="9.0" />
+        </HostList>
+        <LocaleList>
+            <Locale Code="All" />
+        </LocaleList>
+        <RequiredRuntimeList>
+            <RequiredRuntime Name="CSXS" Version="4.0" />
+        </RequiredRuntimeList>
+    </ExecutionEnvironment>
+    <DispatchInfoList>
+        <Extension Id="com.macneko.thumbnailList">
+            <DispatchInfo >
+                <Resources>
+                    <MainPath>./index.html</MainPath>
+                    <ScriptPath>./jsx/hostscript.jsx</ScriptPath>
+                </Resources>
+                <Lifecycle>
+                    <AutoVisible>true</AutoVisible>
+                </Lifecycle>
+                <UI>
+                    <Type>Panel</Type>
+                    <Menu>ThumbnailList</Menu>
+                    <Geometry>
+                        <Size>
+                            <Height>200</Height>
+                            <Width>300</Width>
+                        </Size>
+                        <MaxSize>
+                            <Height>200</Height>
+                            <Width>300</Width>
+                        </MaxSize>
+                        <MinSize>
+                            <Height>200</Height>
+                            <Width>300</Width>
+                        </MinSize>
+                    </Geometry>
+                </UI>
+            </DispatchInfo>
+        </Extension>
+    </DispatchInfoList>
+</ExtensionManifest>
