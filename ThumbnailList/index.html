@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/styles.css"/>
+<link id="hostStyle" rel="stylesheet" href="css/theme.css"/>
+    <title>Create thumbnail list with Indesign.</title>
+</head>
+<body>
+    <p class="base">
+        <select name="page-size" id="select-page-size" required>
+            <option value="">★ドキュメントサイズを選択してください★</option>
+            <option value="A4Portrait">A4タテ</option>
+            <option value="A4Landscape">A4ヨコ</option>
+            <option value="B4Portrait">B4タテ</option>
+            <option value="B4Landscape">B4ヨコ</option>
+            <option value="A3Portrait">A3タテ</option>
+            <option value="A3Landscape">A3ヨコ</option>
+        </select>
+    </p>
+    <p class="base">
+        <span class="label">横の分割数: </span><input type="text" id="horizontal-division" placeholder="3"><br />
+        <span class="label">縦の分割数: </span><input type="text" id="vertical-division" placeholder="3">
+    </p>
+    <p class="base">
+        <button id="button">実行</button>
+    </p>
+<script src="js/libs/CSInterface-4.0.0.js"></script>
+<script src="js/libs/jquery-2.0.2.min.js"></script>
+<script src="js/themeManager.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

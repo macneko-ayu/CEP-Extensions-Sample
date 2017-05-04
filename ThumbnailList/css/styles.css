@@ -1,0 +1,51 @@
+
+
+#content {
+    margin-right:0px;
+    margin-left:0px;
+    vertical-align:middle;
+    width:100%;
+}
+
+.debugtools{
+    background-color:#000;
+    position:absolute;
+    top:0px;
+    right:0px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.debugtools li {
+    display:inline;
+    margin:3px 0px 3px 0px;
+}
+
+.base {
+    text-shadow: none
+    text-align: left;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.label {
+    width: 45%;
+    margin-left: 5px;
+}
+
+input[type="text"] {
+    width: 55%;
+    margin-left: 5px;
+}
+
+input[type="select"] {
+    width: 90%;
+    margin-left: 5px;
+}
+
+button {
+    color: #FFFFFF
+}
